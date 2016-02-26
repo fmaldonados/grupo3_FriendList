@@ -1,4 +1,5 @@
 #include<iostream>
+#include "friend.h"
 
 int main(int argc, char* argv[]){
 

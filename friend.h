@@ -4,13 +4,13 @@
 class Friend{
   private:
 	char* nombre;
-	int numero;
+	char* numero;
   public:
-	Friend(char*, int);
+	Friend(char*, char*);
 	void set_nombre(char*);
-	void set_numero(int);
+	void set_numero(char*);
 	char* get_nombre();
-	int get_numero();
+	char* get_numero();
 	
 };
 
