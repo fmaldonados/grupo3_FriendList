@@ -3,6 +3,7 @@
 #include<cstring>
 #include "friend.h"
 #include <vector>
+
 //using std::cout;
 using std::cin;
 using std::endl;
@@ -26,8 +27,16 @@ int main(int argc, char* argv[]){
 	printw("Laboratorio 5 de programacion");
 	getch();
 	clear();
+
 	echo();
 	
+	initscr();
+	start_color();
+	init_pair(1,COLOR_YELLOW,COLOR_BLACK);
+	attron(COLOR_PAIR(1));
+	//leerimprimir(nombre);
+		
+
 	
 	while(!salir){
 		char nombre[26];
@@ -135,8 +144,8 @@ int main(int argc, char* argv[]){
 				move(10+i,81);
 				printw((lista.at(i-1)).get_numero());
 			}
-				
-			
+			getch();		
+			clear();	
 			
 		}else if(opcion=='3'){
 			salir=true;
