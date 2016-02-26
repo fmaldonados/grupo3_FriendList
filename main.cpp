@@ -1,11 +1,8 @@
 #include<iostream>
-<<<<<<< HEAD
 #include<ncurses.h>
 #include<cstring>
-//#include "friend.h"
-=======
 #include "friend.h"
->>>>>>> 1b3a49ea137ea2e68692e5e9a9d81cc8ad5b4705
+
 
 //using std::cout;
 using std::cin;
@@ -39,7 +36,7 @@ int main(int argc, char* argv[]){
 	attron(COLOR_PAIR(1));
 	//leerimprimir(nombre);
 	printw(nombre);
-	
+		
 
 
 
