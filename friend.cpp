@@ -5,7 +5,8 @@ using namespace std;
 Friend::Friend(char* nombre, char* numero){
 	this -> nombre = new char[25];
 	this -> numero = new char[10];
-	
+	strcpy(this -> numero,numero);
+	strcpy(this -> numero,numero);
 }
 void Friend::set_nombre(char* nombre){
 	this -> nombre = new char[25];
